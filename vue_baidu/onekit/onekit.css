@@ -1,0 +1,548 @@
+
+html {
+    -webkit-locale: "en";
+}
+html {
+    display: block;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.onekit-div {
+    display: block;
+}
+.onekit-a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+.onekit-abbr[title], .onekit-acronym[title] {
+    text-decoration: underline dotted;
+
+}
+
+.onekit-address {
+    display: block;
+}
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
+    font-style: italic;
+}
+.onekit-area {
+    display: inline;
+    cursor: pointer;
+}
+.onekit-article, .onekit-aside, .onekit-footer, .onekit-header, .onekit-hgroup, .onekit-main, .onekit-nav, .onekit-section {
+    display: block;
+}
+
+.onekit-audio {
+    width: 300px;
+    height: 32px;
+}
+.onekit-audio:not([controls]) {
+    display: none;
+}
+.onekit-strong, .onekit-b {
+    font-weight: bold;
+}
+.onekit-bdi, .onekit-output {
+    unicode-bidi: isolate;
+}
+.onekit-bdo {
+    unicode-bidi: bidi-override;
+}
+.onekit-big {
+    font-size: larger;
+}
+.onekit-blockquote {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+.onekit-button {
+    appearance: none;
+}
+.onekit-input, .onekit-textarea, .onekit-select, .onekit-button,.onekit-meter, .onekit-progress {
+    writing-mode: horizontal-tb;
+}
+.onekit-input, .onekit-textarea, .onekit-select, .onekit-button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+    font: 11px system-ui;
+}
+.onekit-input[type="button"], .onekit-input[type="submit"], .onekit-input[type="reset"], .onekit-input[type="file"]::-webkit-file-upload-button, .onekit-button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+.onekit-center {
+    display: block;
+    text-align: center;
+}
+
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
+    font-style: italic;
+}
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
+    font-family: monospace;
+}
+.onekit-datalist {
+    display: none;
+}
+.onekit-dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.onekit-s, .onekit-strike, .onekit-del {
+    text-decoration: line-through;
+}
+.onekit-details {
+    display: block;
+}
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
+    font-style: italic;
+}
+.onekit-dialog::backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+.onekit-dialog {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width:fit-content;
+    height: fit-content;
+    color: black;
+    margin: auto;
+    border-width: initial;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 1em;
+    background: white;
+}
+.onekit-dialog:not([open]) {
+    display: none;
+}
+.onekit-ul, .onekit-menu, .onekit-dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+.onekit-div {
+    display: block;
+}
+.onekit-dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+.onekit-dt {
+    display: block;
+}
+.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
+    font-style: italic;
+}
+.onekit-fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+.onekit-figcaption {
+    display: block;
+}
+.onekit-figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+.onekit-form {
+    display: block;
+    margin-top: 0;
+}
+.onekit-h1 {
+     display: block;
+     font-size: 2em;
+     -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+     font-weight: bold;
+ }
+
+.onekit-hr {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.onekit-iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.onekit-iframe {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.onekit-input {
+    -webkit-appearance: initial;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+
+
+.onekit-p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+.onekit-label {
+    cursor: default;
+}
+.onekit-u, .onekit-ins {
+    text-decoration: underline;
+
+}
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
+    font-family: monospace;
+}
+.onekit-legend {
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.onekit-pre, .onekit-xmp, .onekit-plaintext, .onekit-listing {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+.onekit-map {
+    display: inline;
+}
+.onekit-mark {
+    background-color: yellow;
+    color: black;
+}
+/*marquee {*/
+/*    display: inline-block;*/
+/*    width: fill-available;*/
+/*}*/
+
+
+/*:host {*/
+/*              display: inline-block;*/
+/*              overflow: hidden;*/
+/*              text-align: initial;*/
+/*              white-space: nowrap;*/
+/*          }*/
+
+.onekit-ul, .onekit-menu, .onekit-dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+
+.onekit-meter {
+    appearance: initial;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 1em;
+    width: 5em;
+    vertical-align: -0.2em;
+    -webkit-user-modify: read-only;
+}
+
+.onekit-nobr {
+    white-space: nowrap;
+}
+.onekit-noframes {
+    display: none;
+}
+.onekit-ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+.onekit-li {
+    display: list-item;
+    text-align: match-parent;
+}
+.onekit-optgroup {
+    font-weight: bolder;
+    display: block;
+}
+.onekit-option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0 2px 1px;
+}
+.onekit-output {
+    display: inline;
+}
+.onekit-bdi, .onekit-output {
+    unicode-bidi: isolate;
+}
+.onekit-p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.onekit-progress {
+    appearance: none;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 1em;
+    width: 10em;
+    vertical-align: -0.2em;
+}
+.onekit-q::after {
+    content: close-quote;
+}
+.onekit-q::before {
+    content: open-quote;
+}
+.onekit-q {
+    display: inline;
+}
+.onekit-ruby, .onekit-rt {
+    text-indent: 0;
+}
+.onekit-ruby > .onekit-rp {
+    display: none;
+}
+.onekit-ruby, .onekit-rt {
+    text-indent: 0;
+}
+.onekit-rt {
+    line-height: normal;
+    text-emphasis: none;
+}
+.onekit-ruby > .onekit-rt {
+    display: block;
+    font-size: 50%;
+    text-align: start;
+}
+
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
+    font-family: monospace;
+}
+.onekit-script {
+    display: none;
+}
+
+
+
+.onekit-select {
+    border-radius: 5px;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+.onekit-select, .onekit-input[type="color"][list] {
+    background-color: rgb(248, 248, 248);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(166, 166, 166);
+    border-image: initial;}
+
+/*select:not(:-internal-list-box) {*/
+/*    overflow: visible !important;*/
+/*    overflow-x: visible;*/
+/*    overflow-y: visible;*/
+/*}*/
+.onekit-small {
+    font-size: smaller;
+}
+
+.onekit-strong, .onekit-b {
+    font-weight: bold;
+}
+.onekit-sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+.onekit-summary {
+    display: block;
+}
+.onekit-sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.onekit-table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.onekit-colgroup {
+    display: table-column-group;
+}
+.onekit-col {
+    display: table-column;
+}
+.onekit-thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.onekit-tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.onekit-tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.onekit-tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.onekit-td, .onekit-th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.onekit-th {
+     font-weight: bold;
+     text-align: center;
+ }
+.onekit-tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.onekit-template {
+    display: none;
+}
+
+.onekit-textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: both;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
+    font-family: monospace;
+}
+.onekit-u, .onekit-ins {
+    text-decoration: underline;
+}
+.onekit-ul, .onekit-menu, .onekit-dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+
+.onekit-video {
+    object-fit: contain;
+}
+
