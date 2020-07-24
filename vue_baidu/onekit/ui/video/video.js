@@ -1,26 +1,80 @@
+import {fixurl} from "../../thekit"
 Component({
-    properties: {
-        propName: { // 属性名
-            type: String, // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型）
-            value: 'val', // 属性初始值（必填）
-            observer: function(newVal, oldVal) {
-                // 属性被改变时执行的函数（可选）
-            }
-        }
+  options: {
+    styleIsolation: 'apply-shared'
+  },
+  properties: {
+    Style:String,
+    Class:String,
+    width:Number,
+    height:Number,
+      src:{
+          type: String,
+          value: "",
+      },
+      autoplay:{
+          type: Boolean,
+          value: false,
+      },
+      controls:{
+          type: Boolean,
+          value: false,
+      },
+      duration:{
+          type: Number,
+          value: "",
+      },
+      loop:{
+          type: Boolean,
+          value: false,
+      },
+      muted:{
+          type: Boolean,
+          value: false,
+      },
+      poster:{
+          type: String,
+          value: "",
+      },
+  },
+   methods: {
+        video_loadedmetadata(e){
+            const size = e.detail;
+            var data2 = {};
+            if(!this.properties.width && !this.properties.height){
+                data2.baidu_width = size.width+"px";
+                data2.baidu_height = size.height+"px";
+            }else      if(!this.properties.width && this.properties.height){
+                data2.baidu_width = size.width*this.properties.height/size.height+"px";
+            }else   if(this.properties.width && !this.properties.height){
+                data2.baidu_height = size.height*this.properties.width/size.width+"px";
+                }
+            this.setData(data2);
+        //   console.log("video_loadedmetadata", e);
+        //   this.triggerEvent('loadedmetadata',e.details)
+          },
+          video_play(e){
+            console.log("video_play", e);
+            this.triggerEvent('play',e.details)
+            },
+            video_ended(e){
+            console.log("video_ended", e);
+            this.triggerEvent('ended',e.details)
+            },
+        
+},
+lifetimes: {
+    attached: function() {
+      const pages = getCurrentPages();
+      const currentUrl = pages[pages.length-1].route;
+      const baidu_width =this.properties.width?this.properties.width+"px":"auto";
+      const baidu_height =this.properties.height?this.properties.height+"px":"auto";
+      const baidu_src = "/"+fixurl(currentUrl,this.properties.src);
+      this.setData({baidu_width,baidu_height,baidu_src});
     },
-
-    data: {}, // 私有数据，可用于模版渲染
-
-    // 生命周期函数，可以为函数，或一个在methods段中定义的方法名
-    attached: function () {},
-
-    detached: function () {},
-
-    methods: {
-        onTap: function () {
-            this.setData({
-                // 更新属性和数据的方法与更新页面数据的方法类似
-            });
-        }
-    }
+    detached: function() {
+     
+    },
+  },
+ 
 });

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "onekit-video": "/onekit/ui/video/video"
+
+  }
+}

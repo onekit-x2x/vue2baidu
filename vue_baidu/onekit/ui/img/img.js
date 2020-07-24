@@ -1,26 +1,52 @@
+// onekit/ui/img/img.js
+import {fixurl} from "../../thekit"
 Component({
-    properties: {
-        propName: { // 属性名
-            type: String, // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型）
-            value: 'val', // 属性初始值（必填）
-            observer: function(newVal, oldVal) {
-                // 属性被改变时执行的函数（可选）
-            }
-        }
+  options: {
+        addGlobalClass: true,
     },
+  properties: {
+    Style:String,
+    Class:String,
+    width:Number,
+    height:Number,
+    src:{
+      type:String,
+      value:''
+    },
+    
+  },
 
-    data: {}, // 私有数据，可用于模版渲染
 
-    // 生命周期函数，可以为函数，或一个在methods段中定义的方法名
-    attached: function () {},
 
-    detached: function () {},
-
-    methods: {
-        onTap: function () {
-            this.setData({
-                // 更新属性和数据的方法与更新页面数据的方法类似
-            });
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    image_load(e){
+      const size = e.detail;
+      var data2 = {};
+      if(!this.properties.width && !this.properties.height){
+        data2.baidu_width = size.width+"px";
+        data2.baidu_height = size.height+"px";
+      }else      if(!this.properties.width && this.properties.height){
+        data2.baidu_width = size.width*this.properties.height/size.height+"px";
+      }else   if(this.properties.width && !this.properties.height){
+        data2.baidu_height = size.height*this.properties.width/size.width+"px";
         }
+      this.setData(data2);
     }
-});
+  },
+  lifetimes: {
+    attached: function() {
+      const pages = getCurrentPages();
+      const currentUrl = pages[pages.length-1].route;
+      const baidu_width =this.properties.width?this.properties.width+"px":"auto";
+      const baidu_height =this.properties.height?this.properties.height+"px":"auto";
+      const baidu_src = "/"+fixurl(currentUrl,this.properties.src);
+      this.setData({baidu_width,baidu_height,baidu_src});
+    },
+    detached: function() {
+     
+    },
+  },
+})

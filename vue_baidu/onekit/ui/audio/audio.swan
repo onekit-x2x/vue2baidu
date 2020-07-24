@@ -1,3 +1,16 @@
-<view class="container">
-    <!--to do-->
-</view>
+<!--onekit/ui/audio/audio.wxml-->
+<audio
+class="onekit-audio {{Class}}"
+style="{{style}}"
+src="{{src}}"
+controls="{{controls}}"
+loop="{{loop}}"
+
+bindplay="audio_play"
+bindpause="audio_pause"
+bindtimeupdate="audio_timeupdate"
+bindended="audio_ended"
+
+>
+
+</audio>

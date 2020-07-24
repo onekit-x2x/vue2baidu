@@ -1,3 +1,20 @@
-<view class="container">
-    <!--to do-->
-</view>
+<video
+class="onekit-video {{Class}}"
+style="width:{{baidu_width}};height:{{baidu_height}};{{Style}};"
+src="{{src}}"
+autoplay="{{autoplay}}"
+controls="{{controls}}"
+duration="{{duration}}"
+loop="{{loop}}"
+muted="{{muted}}"
+poster="{{poster}}"
+
+ 
+bindloadedmetadata="video_loadedmetadata"
+bindplay="video_play"
+bindended="video_ended"
+
+>
+
+
+</video>

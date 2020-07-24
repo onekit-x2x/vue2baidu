@@ -1,3 +1,10 @@
-<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg">
 
-</image>
+
+<onekit-img src="timg.jpg"/>
+<onekit-img width="30" src="timg.jpg"/>
+<onekit-img height="30" src="timg.jpg"/>
+
+<onekit-img width="30" height="30" src="timg.jpg"/>
+<onekit-img Style="width:20px;height:20px"src="timg.jpg"/>
+
+

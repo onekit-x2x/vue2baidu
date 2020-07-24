@@ -1,26 +1,41 @@
 Component({
-    properties: {
-        propName: { // 属性名
-            type: String, // 类型（必填），目前接受的类型包括：String, Number, Boolean, Object, Array, null（表示任意类型）
-            value: 'val', // 属性初始值（必填）
-            observer: function(newVal, oldVal) {
-                // 属性被改变时执行的函数（可选）
-            }
-        }
+  options: {
+        addGlobalClass: true,
     },
-
-    data: {}, // 私有数据，可用于模版渲染
-
-    // 生命周期函数，可以为函数，或一个在methods段中定义的方法名
-    attached: function () {},
-
-    detached: function () {},
-
-    methods: {
-        onTap: function () {
-            this.setData({
-                // 更新属性和数据的方法与更新页面数据的方法类似
-            });
-        }
-    }
+  properties: {
+      Style:String,
+      Class:String,
+      src:{
+          type: String,
+          value: "",
+      },
+      controls:{
+          type: Boolean,
+          value: false,
+      },
+      loop:{
+        type: Boolean,
+        value: false,
+      },
+      
+  },
+   methods: {
+        audio_play(e){
+          console.log("audio_play", e);
+          this.triggerEvent('play',e.details)
+        },
+        audio_pause(e){
+          console.log("audio_pause", e);
+          this.triggerEvent('pause',e.details)
+        },
+        audio_ended(e){
+          console.log("audio_ended", e);
+          this.triggerEvent('ended',e.details)
+        },
+        audio_timeupdate(e){
+          console.log("audio_timeupdate", e);
+          this.triggerEvent('timeupdate',e.details)
+        },
+        
+}
 });

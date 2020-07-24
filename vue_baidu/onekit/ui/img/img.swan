@@ -1,3 +1,10 @@
-<view class="container">
-    <!--to do-->
-</view>
+<image
+class="onekit-img {{Class}}"
+style="width:{{baidu_width}};height:{{baidu_height}};{{Style}};"
+src="{{baidu_src}}"
+
+
+bindload="image_load"
+>
+<slot/>
+</image>
