@@ -1,6 +1,7 @@
 <view
 class="onekit-ol {{Class}}"
 style="{{Style}}"
+id="{{Id}}"
 type="{{type}}"
 start="{{start}}"
 reversed="{{reversed}}"
