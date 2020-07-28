@@ -1,3 +1,6 @@
-<view class="container">
-    <!--to do-->
+<view
+class="onekit-dl {{Class}}"
+style="{{Style}}"
+>
+<slot/>
 </view>

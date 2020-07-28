@@ -4,18 +4,19 @@ options: {
     },
     properties: {
         propName: {
-        Class:{type:String,value:""},
-        Style:{type:String,value:""},
-            
+            Class: { type: String, value: "" },
+            Style: { type: String, value: "" },
+            type: { type: String, value: "" },
+            id: { type: String, value: "" },
         }
     },
 
     data: {}, // 私有数据，可用于模版渲染
 
     // 生命周期函数，可以为函数，或一个在methods段中定义的方法名
-    attached: function () {},
+    attached: function () { },
 
-    detached: function () {},
+    detached: function () { },
 
     methods: {
         onTap: function () {

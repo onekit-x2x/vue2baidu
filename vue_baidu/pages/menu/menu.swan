@@ -1,0 +1,17 @@
+<onekit-menu type="toolbar">
+  <onekit-li>
+    <button type="menu" menu="file-menu">File</button>
+    <onekit-menu type="context" id="file-menu">
+      <onekit-menuitem label="New..." bindclick="newFile()"/>
+      <onekit-menuitem label="Save..." bindclick="saveFile()"/>
+    </onekit-menu>
+  </onekit-li>
+  <onekit-li>
+    <button type="menu" menu="edit-menu">Edit</button>
+    <onekit-menu type="context" id="edit-menu">
+      <onekit-menuitem label="Cut..." bindclick="cutEdit()"/>
+      <onekit-menuitem label="Copy..." bindclick="copyEdit()"/>
+      <onekit-menuitem label="Paste..." bindclick="pasteEdit()"/>
+    </onekit-menu>
+  </onekit-li>
+</onekit-menu>

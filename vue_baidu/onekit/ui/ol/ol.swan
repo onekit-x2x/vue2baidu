@@ -1,3 +1,9 @@
-<view class="container">
-    <!--to do-->
+<view
+class="onekit-ol {{Class}}"
+style="{{Style}}"
+type="{{type}}"
+start="{{start}}"
+reversed="{{reversed}}"
+>
+<slot/>
 </view>

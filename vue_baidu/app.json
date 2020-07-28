@@ -1,9 +1,12 @@
 {
     "pages": [
-        "pages/audio/audio",
+        "pages/menu/menu",
         "pages/video/video",
         "pages/image/image",
-        "pages/index/index"
+        "pages/index/index",
+        "pages/li/li",
+        "pages/ol/ol",
+        "pages/ul/ul"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",

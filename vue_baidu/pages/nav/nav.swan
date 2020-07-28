@@ -1,0 +1,8 @@
+<onekit-nav Class="crumbs">
+    <view>
+        <view class="crumb"><onekit-a href="../image/image">Bikes</onekit-a></view>
+        <view class="crumb"><onekit-a href="bikes/bmx">BMX</onekit-a></view>
+        <view class="crumb">Jump Bike 3000</view>
+    </view> 
+    
+</onekit-nav>
