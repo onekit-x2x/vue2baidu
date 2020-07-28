@@ -1,7 +1,7 @@
 import {fixurl} from "../../thekit"
 Component({
   options: {
-    styleIsolation: 'apply-shared'
+    addGlobalClass: true,
   },
   properties: {
     Style:String,

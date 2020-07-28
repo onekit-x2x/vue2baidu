@@ -1,11 +1,23 @@
 {
     "editor": {
-        "curPath": "",
+        "curPath": "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.js",
         "expands": [
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit"
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav"
         ],
         "markdownUploadTimeMap": {},
-        "paths": [],
-        "recentlyFiles": []
+        "paths": [
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\project.swan.json",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.js",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.json"
+        ],
+        "recentlyFiles": [
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.js",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.json",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\project.swan.json",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.swan",
+            "D:\\work\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\nav\\nav.css"
+        ]
     }
 }
