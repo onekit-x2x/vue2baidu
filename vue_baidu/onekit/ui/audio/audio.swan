@@ -1,7 +1,7 @@
 <!--onekit/ui/audio/audio.wxml-->
 <audio
 class="onekit-audio {{Class}}"
-style="{{style}}"
+style="{{style}}" id="{{Id}}"
 src="{{src}}"
 controls="{{controls}}"
 loop="{{loop}}"

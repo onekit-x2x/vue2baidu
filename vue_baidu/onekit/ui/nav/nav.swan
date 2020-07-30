@@ -1,6 +1,6 @@
 <view
 class="onekit-nav {{Class}}"
-style="{{Style}}"
+style="{{style}}" id="{{Id}}"
 id="{{Id}}"
 >
 <slot/>

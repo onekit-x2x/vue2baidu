@@ -4,8 +4,9 @@ Component({
     addGlobalClass: true,
   },
   properties: {
-    Style:String,
-    Class:String,
+    Id:{type:String,value:""},
+    Class:{type:String,value:""},    
+    Style:{type:String,value:""},
     width:Number,
     height:Number,
       src:{
