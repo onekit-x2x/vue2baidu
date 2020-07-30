@@ -1,6 +1,7 @@
 <view
 class="onekit-menuitem {{Class}}"
-style="{{style}}" id="{{Id}}"
+style="{{style}}" 
+id="{{Id}}"
 checked="{{checked}}"
 command="{{command}}"
 default="{{default}}"

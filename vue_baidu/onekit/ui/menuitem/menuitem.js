@@ -1,20 +1,21 @@
 Component({
-options: {
+    options: {
         addGlobalClass: true,
     },
-    properties: {Id:{type:String,value:""},     Class:{type:String,value:""},         Style:{type:String,value:""},
-        propName: {
-            Class: { type: String, value: "" },
-            Style: { type: String, value: "" },
-            checked: { type: Boolean },
-            default: { type: Boolean },
-            disabled: { type: Boolean },
-            command: { type: String, value: "" },
-            icon: { type: String, value: "" },
-            label: { type: String, value: "" },
-            radiogroup: { type: String, value: "" },
-            type: { type: String, value: "" },
-        }
+    properties: {
+        Id: { type: String, value: "" },
+
+        Class: { type: String, value: "" },
+        Style: { type: String, value: "" },
+        checked: { type: Boolean },
+        default: { type: Boolean },
+        disabled: { type: Boolean },
+        command: { type: String, value: "" },
+        icon: { type: String, value: "" },
+        label: { type: String, value: "" },
+        radiogroup: { type: String, value: "" },
+        type: { type: String, value: "" },
+
     },
 
     data: {}, // 私有数据，可用于模版渲染

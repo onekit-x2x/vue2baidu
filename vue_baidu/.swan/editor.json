@@ -1,36 +1,9 @@
 {
     "editor": {
-        "curPath": "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\video\\video.js",
-        "expands": [
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui"
-        ],
+        "curPath": "",
+        "expands": [],
         "markdownUploadTimeMap": {},
-        "paths": [
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.swan",
-            "search",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\video\\video.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\wbr\\wbr.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\img\\img.js"
-        ],
-        "recentlyFiles": [
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\video\\video.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\img\\img.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\body\\body.swan",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\body\\body.json",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\body\\body.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\abbr\\abbr.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\a\\a.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\wbr\\wbr.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\div\\div.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\div\\div.swan",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\bdo\\bdo.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\area\\area.js",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.swan",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\abbr\\abbr.swan",
-            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\a\\a.swan"
-        ]
+        "paths": [],
+        "recentlyFiles": []
     }
 }

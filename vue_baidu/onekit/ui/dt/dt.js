@@ -1,12 +1,12 @@
 Component({
-options: {
+    options: {
         addGlobalClass: true,
     },
-    properties: {Id:{type:String,value:""},     Class:{type:String,value:""},         Style:{type:String,value:""},
-        propName: {
-            Class: { type: String, value: "" },
-            Style: { type: String, value: "" },
-        }
+    properties: {
+        Id: { type: String, value: "" }, 
+        Class: { type: String, value: "" }, 
+        Style: { type: String, value: "" },
+
     },
 
     data: {}, // 私有数据，可用于模版渲染

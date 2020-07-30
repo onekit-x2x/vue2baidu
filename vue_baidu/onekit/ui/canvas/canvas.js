@@ -2,8 +2,8 @@ Component({
     options: {
         addGlobalClass: true,
     },
-    properties: {Id:{type:String,value:""},     Class:{type:String,value:""},         Style:{type:String,value:""},
-        propName: {
+    properties: {
+
             Class: {
                 type: String,
                 value: ""
@@ -28,7 +28,7 @@ Component({
                 type: String,
                 value: ""
             },
-        }
+
     },
 
     data: {}, // 私有数据，可用于模版渲染

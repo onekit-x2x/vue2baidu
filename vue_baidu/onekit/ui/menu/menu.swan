@@ -1,6 +1,6 @@
 <view
 class="onekit-menu {{Class}}"
-style="{{style}}" id="{{Id}}"
+style="{{style}}" 
 type="{{type}}"
 id="{{Id}}"
 >
