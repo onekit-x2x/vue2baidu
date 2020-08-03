@@ -1,0 +1,4 @@
+<canvas id="canvas" width="300" height="300"> 
+  抱歉，您的浏览器不支持canvas元素
+  （这些内容将会在不支持canvas元素的浏览器或是禁用了JavaScript的浏览器内渲染并展现）
+</canvas>

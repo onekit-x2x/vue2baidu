@@ -6,7 +6,8 @@
         "pages/index/index",
         "pages/li/li",
         "pages/ol/ol",
-        "pages/ul/ul"
+        "pages/ul/ul",
+        "pages/canvas/canvas"
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
