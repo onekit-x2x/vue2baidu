@@ -1,6 +1,6 @@
 <video
-class="onekit-video {{Class}}"
-style="width:{{baidu_width}};height:{{baidu_height}};{{Style}};"
+class="onekit-video {{onekitClass}}"
+style="width:{{baidu_width}};height:{{baidu_height}};{{onekitStyle}};"
 src="{{src}}"
 autoplay="{{autoplay}}"
 controls="{{controls}}"

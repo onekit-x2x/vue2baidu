@@ -1,4 +1,4 @@
-<onekit-nav Class="crumbs">
+<onekit-nav onekit-class="crumbs">
     <view>
         <view class="crumb"><onekit-a href="../image/image">Bikes</onekit-a></view>
         <view class="crumb"><onekit-a href="bikes/bmx">BMX</onekit-a></view>

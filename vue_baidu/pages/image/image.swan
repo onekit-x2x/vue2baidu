@@ -5,6 +5,6 @@
 <onekit-img height="30" src="timg.jpg"/>
 
 <onekit-img width="30" height="30" src="timg.jpg"/>
-<onekit-img Style="width:20px;height:20px"src="timg.jpg"/>
+<onekit-img onekit-style="width:20px;height:20px"src="timg.jpg"/>
 
 
