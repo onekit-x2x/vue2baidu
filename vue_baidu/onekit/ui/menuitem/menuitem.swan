@@ -1,7 +1,7 @@
 <view
 class="onekit-menuitem {{onekitClass}}"
 style="{{style}}" 
-id="{{Id}}"
+id="{{onekitId}}"
 checked="{{checked}}"
 command="{{command}}"
 default="{{default}}"

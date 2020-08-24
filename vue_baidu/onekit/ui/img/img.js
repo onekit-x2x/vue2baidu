@@ -4,7 +4,7 @@ Component({
   options: {
         addGlobalClass: true,
     },
-  properties: {Id:{type:String,value:""},     onekitClass:{type:String,value:""},         onekitStyle:{type:String,value:""},
+  properties: {onekitId:{type:String,value:""},     onekitClass:{type:String,value:""},         onekitStyle:{type:String,value:""},
    
     width:Number,
     height:Number,

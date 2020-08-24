@@ -1,6 +1,7 @@
 <image
 class="onekit-img {{onekitClass}}"
 style="width:{{baidu_width}};height:{{baidu_height}};{{onekitStyle}};"
+id="{{onekitId}}"
 src="{{baidu_src}}"
 
 

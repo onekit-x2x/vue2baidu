@@ -1,7 +1,7 @@
 <canvas
 class="onekit-canvas {{onekitClass}}"
 style="height:{{height}}px;width:{{width}}px;display:block !important;{{onekitStyle}}"
-id="{{Id}}"
+id="{{onkitId}}"
 height="{{height}}"
 width="{{width}}"
 canvas-id="{{id}}"
