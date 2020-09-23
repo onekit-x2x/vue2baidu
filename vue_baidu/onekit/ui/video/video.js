@@ -56,11 +56,11 @@ Component({
           },
           video_play(e){
             console.log("video_play", e);
-            this.triggerEvent('play',e.details)
+            this.triggerEvent('play')
             },
             video_ended(e){
             console.log("video_ended", e);
-            this.triggerEvent('ended',e.details)
+            this.triggerEvent('ended')
             },
         
 },

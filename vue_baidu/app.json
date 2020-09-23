@@ -1,8 +1,9 @@
 {
     "pages": [
         "pages/image/image",
-        "pages/menu/menu",
         "pages/video/video",
+        "pages/audio/audio",
+        "pages/menu/menu",
         "pages/index/index",
         "pages/li/li",
         "pages/ol/ol",

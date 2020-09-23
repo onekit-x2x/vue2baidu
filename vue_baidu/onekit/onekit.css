@@ -100,9 +100,7 @@ body {
     text-align: center;
 }
 
-.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
-    font-style: italic;
-}
+
 .onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
     font-family: monospace;
 }
@@ -119,9 +117,7 @@ body {
 .onekit-details {
     display: block;
 }
-.onekit-i, .onekit-cite, .onekit-em, .onekit-var, .onekit-address, .onekit-dfn {
-    font-style: italic;
-}
+
 .onekit-dialog::backdrop {
     position: fixed;
     top: 0;
@@ -268,9 +264,7 @@ body {
     text-decoration: underline;
 
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-legend {
     display: block;
     -webkit-padding-start: 2px;
@@ -407,9 +401,7 @@ body {
     text-align: start;
 }
 
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
+
 .onekit-script {
     display: none;
 }
@@ -526,23 +518,12 @@ body {
     border-image: initial;
     padding: 2px;
 }
-.onekit-tt, .onekit-code, .onekit-kbd, .onekit-samp {
-    font-family: monospace;
-}
-.onekit-u, .onekit-ins {
-    text-decoration: underline;
-}
-.onekit-ul, .onekit-menu, .onekit-dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 40px;
-}
+
+
 
 .onekit-video {
     object-fit: contain;
 }
-
+.onekit-img{
+	display:inline-block;
+}

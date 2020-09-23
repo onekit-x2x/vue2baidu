@@ -1,9 +1,36 @@
 {
     "editor": {
-        "curPath": "",
-        "expands": [],
+        "curPath": "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.swan",
+        "expands": [
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image"
+        ],
         "markdownUploadTimeMap": {},
-        "paths": [],
-        "recentlyFiles": []
+        "paths": [
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\app.json",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.swan"
+        ],
+        "recentlyFiles": [
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.swan",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.json",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\app.json",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\image\\image.css",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\img\\img.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\img\\img.json",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\audio\\audio.swan",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\pages\\audio\\audio.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\onekit.css",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.css",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\audio\\audio.swan",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\a\\a.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\abbr\\abbr.js",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\abbr\\abbr.css",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\a\\a.json",
+            "D:\\GIT\\github.com\\vue2baidu\\vue_baidu\\onekit\\ui\\a\\a.swan"
+        ]
     }
 }

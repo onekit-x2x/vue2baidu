@@ -1,6 +1,6 @@
 <!--onekit/ui/audio/audio.wxml-->
 <audio
-class="onekit-audio {{Class}}"
+class="onekit-audio {{onekitClass}}"
 style="{{onekitStyle}}" id="{{onekitId}}"
 src="{{src}}"
 controls="{{controls}}"
